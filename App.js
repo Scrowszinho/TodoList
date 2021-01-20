@@ -22,7 +22,7 @@ export default function App() {
   const addNewItem = (txt) => {
   let newItems = [...items];
   newItems.push({
-    id:uuid,
+    id:uuid(),
     task:txt,
     done:false
   });
